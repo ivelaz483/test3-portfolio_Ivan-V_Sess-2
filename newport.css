@@ -1,0 +1,121 @@
+body {
+  animation-name: grad;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: center;
+}
+
+.column {
+  /*flex: 25%;*/ 
+  align-content: center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li a:hover {
+  background-color: #0099ff;
+}
+
+#sem2 {
+  font-size: 1.5rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+  font-size: 1rem;
+  font-family: Lucida Console, Courier New, monospace;
+  text-indent: 0;
+}
+
+
+
+/*@keyframes grad {
+  0%   {background-color: #ff0000;}
+  20%  {background-color: #ff9900;}
+  40%  {background-color: #ffff00;}
+  60% {background-color: #66ff33;}
+  80% {background-color: #00ffff;}
+  90% {background-color: #6666ff;}
+  100% {background-color: #ff3399;}
+}
+
+@media only screen and (max-width: 520px) {
+  li a {font-size: 1rem;}
+  #sem2 {font-size: 1rem;}
+  p {font-size: .75rem;}
+  #myCanvas0 {width: 75%; height: auto;}
+  #myCanvas1 {width: 75%; height: auto;}
+  #myCanvas2 {width: 75%; height: auto;}
+  #myCanvas3 {width: 75%; height: auto;}
+  #myCanvas4 {width: 75%; height: auto;}
+  #myCanvas5 {width: 75%; height: auto;}
+  #myCanvas6 {width: 75%; height: auto;}
+  #myCanvas7 {width: 75%; height: auto;}
+  #myCanvas8 {width: 75%; height: auto;}
+  #myCanvas9 {width: 75%; height: auto;}
+  #myCanvas10 {width: 75%; height: auto;}
+  #myCanvas11 {width: 75%; height: auto;}
+
+  #Canvas0 {width: 75%; height: auto;}
+  #Canvas1 {width: 75%; height: auto;}
+  #Canvas2 {width: 75%; height: auto;}
+  #Canvas3 {width: 75%; height: auto;}
+  #Canvas4 {width: 75%; height: auto;}
+  #Canvas5 {width: 75%; height: auto;}
+  #Canvas6 {width: 75%; height: auto;}
+  #Canvas7 {width: 75%; height: auto;}
+}
+
+@media only screen and (max-width: 232px) {
+  li a {font-size: .6rem;}
+  #sem2 {font-size: .6rem;}
+  p {font-size: .55rem;}
+  #myCanvas0 {width: 65%; height: auto;}
+  #myCanvas1 {width: 65%; height: auto;}
+  #myCanvas2 {width: 65%; height: auto;}
+  #myCanvas3 {width: 65%; height: auto;}
+  #myCanvas4 {width: 65%; height: auto;}
+  #myCanvas5 {width: 65%; height: auto;}
+  #myCanvas6 {width: 65%; height: auto;}
+  #myCanvas7 {width: 65%; height: auto;}
+  #myCanvas8 {width: 65%; height: auto;}
+  #myCanvas9 {width: 65%; height: auto;}
+  #myCanvas10 {width: 65%; height: auto;}
+  #myCanvas11 {width: 65%; height: auto;}
+
+  #Canvas0 {width: 65%; height: auto;}
+  #Canvas1 {width: 65%; height: auto;}
+  #Canvas2 {width: 65%; height: auto;}
+  #Canvas3 {width: 65%; height: auto;}
+  #Canvas4 {width: 65%; height: auto;}
+  #Canvas5 {width: 65%; height: auto;}
+  #Canvas6 {width: 65%; height: auto;}
+  #Canvas7 {width: 65%; height: auto;}
+}*/
